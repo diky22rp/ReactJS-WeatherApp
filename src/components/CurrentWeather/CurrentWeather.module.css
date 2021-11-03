@@ -1,0 +1,98 @@
+.box {
+    width: 360px;
+    height: 560px;
+    padding: 50px;
+    border-radius: 15px;
+    background: url('../Page/assets/bg.jpg') 48% 90% no-repeat;
+    box-shadow: 7px 7px 20px rgba(0, 0, 0, .05);
+    opacity: 0.8;
+}
+
+.header {
+    display: flex;
+    font-size: 1.31em;
+    font-weight: 500;
+    color: #290C68;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+header i {
+    font-size: 0;
+    cursor: pointer;
+    margin-right: 8px
+}
+
+.box header i {
+    margin-left: 5px;
+    font-size: 1.45em
+}
+
+.weatherPart {
+    margin: 15px 0 0;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.weatherPart .imgIcon {
+    margin-left: 20px;
+    margin-bottom: 3px;
+}
+
+.weatherPart .weather {
+    font-size: 18px;
+    margin: px 20px 10px;
+    margin-left: 15px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    font-weight: 400;
+}
+
+.weatherPart .temp {
+    display: flex;
+    font-weight: 500;
+    font-size: 1.5em;
+    margin-left: 15px;
+    margin-bottom: 3px;
+    /* margin-top: -15px; */
+}
+
+.weatherPart .temp .numb {
+    font-weight: 600;
+}
+
+.weatherPart .temp .deg {
+    font-size: .55em;
+    display: block;
+    margin: 10px 5px 0 0
+}
+
+.weatherPart .imgBackground {
+    max-width: 100%;
+    margin-bottom: 10px;
+    margin-top: -30px;
+}
+
+.weatherPart .bottomDetails {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    border-top: 1px solid #ccc;
+}
+
+.bottomDetails .column {
+    display: flex;
+    width: 100%;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: center
+}
+
+.column .details span {
+    font-weight: 500;
+    font-size: 1.5em;
+}

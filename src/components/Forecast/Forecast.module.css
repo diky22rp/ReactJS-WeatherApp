@@ -1,0 +1,14 @@
+.cardOther {
+    width: 350px;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 7px 7px 20px rgba(0, 0, 0, .05);
+    opacity: 0.8;
+    background: url('../Forecast/assets/bg.jpg') 48% 90% no-repeat;
+    margin-top: 30px;
+}
+
+.card {
+    margin-top: 30px;
+
+}

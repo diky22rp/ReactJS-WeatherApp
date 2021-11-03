@@ -1,0 +1,18 @@
+.box {
+    width: 350px;
+    padding: 50px;
+    border-radius: 15px;
+    background: url('./assets/bg.jpg') 48% 90% no-repeat;
+    box-shadow: 7px 7px 20px rgba(0, 0, 0, .05);
+    opacity: 0.8;
+}
+
+/* .header {
+    display: flex;
+    font-size: 1.31em;
+    font-weight: 500;
+    color: #290C68;
+    padding: 16px 15px;
+    align-items: center;
+    border-bottom: 1px solid #ccc
+} */

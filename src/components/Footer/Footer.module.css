@@ -1,0 +1,15 @@
+.heading {
+    padding: 2rem;
+    text-align: center;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.light {
+    color: #fff;
+    font-weight: 100;
+}
+
+.love {
+    color: crimson;
+}
