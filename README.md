@@ -1,12 +1,9 @@
 # Weather App | ReactJS
 Aplikasi ini dibuat dengan ReactJS, Api yang digunakan berasal dari https://www.metaweather.com/api/
 
-Core:
 - CSS Modules
-- React.js
 - Hooks
-
-Communication tool:
+- React.js
 - axios
 
 ## Preview
