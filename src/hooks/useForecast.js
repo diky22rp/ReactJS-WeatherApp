@@ -6,7 +6,7 @@ import getCurrentDayDetailedWeather from "../helpers/getCurrentDayDetailedWeathe
 import getUpcomingDaysWeather from "../helpers/getUpcomingDaysWeather";
 
 const BASE_URL = 'https://www.metaweather.com/api/location'
-const CROSS_DOMAIN = 'https://the-ultimate-api-challenge.herokuapp.com'
+const CROSS_DOMAIN = 'https://mycorsproxy-drp.herokuapp.com'
 const REQUEST_URL = `${CROSS_DOMAIN}/${BASE_URL}`
 
 const useForecast = () => {
@@ -18,7 +18,6 @@ const useForecast = () => {
     const getWoeid = async (location) => {
         //get woeid
         var arrayLatLong = location.split(',');
-        console.log(arrayLatLong.length)
         if (arrayLatLong.length === 2) {
 
             const { data } = await axios(`${REQUEST_URL}/search`, { params: { lattlong: arrayLatLong[0] + ',' + arrayLatLong[1] } });
@@ -70,7 +69,6 @@ const useForecast = () => {
         if (!response?.woeid) return;
         const data = await getForecastData(response.woeid);
         if (!data) return;
-        console.log(data);
 
         sendForecastData(data);
     };
