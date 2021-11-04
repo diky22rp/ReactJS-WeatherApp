@@ -56,3 +56,11 @@
     align-items: center;
     justify-content: center;
 }
+
+.separator::before {
+    content: "or";
+    color: #290c68;
+    font-size: 1.18em;
+    padding: 0 15px;
+    background: #ebe7f3;
+}
