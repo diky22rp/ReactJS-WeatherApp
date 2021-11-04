@@ -18,12 +18,12 @@ const Page = () => {
     return (
         <Fragment>
             {!forecast && (
-                <div className={`${style.box} position-relative`}>                    
-                        {/* Form */}
-                        {!isLoading && <Form submitSearch={onSubmit}/>}
-
+                <div className={`${style.box} position-relative`}>   
                         {/* Error */}
                         {isError && <Error message={isError} />}
+
+                        {/* Form */}
+                        {!isLoading && <Form submitSearch={onSubmit}/>}
 
                         {/* Loader */}
                         {isLoading && <Loader />}

@@ -1,3 +1,7 @@
 .error {
+    background-color: crimson;
     bottom: 0;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 600;
 }
